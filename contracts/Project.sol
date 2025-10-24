@@ -16,3 +16,6 @@ contract HealthcareRecords {
         string prescription;
         address addedBy;
     }
+ // Mapping of patient’s wallet address to their record
+    mapping(address => Patient) private patients;
+
