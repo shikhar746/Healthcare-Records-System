@@ -19,3 +19,5 @@ contract HealthcareRecords {
  // Mapping of patient’s wallet address to their record
     mapping(address => Patient) private patients;
 
+ // Addresses with doctor privileges
+    mapping(address => bool) private doctors;
