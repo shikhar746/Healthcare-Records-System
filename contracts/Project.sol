@@ -21,3 +21,6 @@ contract HealthcareRecords {
 
  // Addresses with doctor privileges
     mapping(address => bool) private doctors;
+
+  // Contract owner (admin)
+    address public admin;
