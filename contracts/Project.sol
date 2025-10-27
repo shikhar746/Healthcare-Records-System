@@ -24,3 +24,8 @@ contract HealthcareRecords {
 
   // Contract owner (admin)
     address public admin;
+
+// Events for logging
+    event DoctorAdded(address doctor);
+    event RecordAdded(address patient, string disease);
+    event RecordUpdated(address patient, string disease);
