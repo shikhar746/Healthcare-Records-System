@@ -29,3 +29,8 @@ contract HealthcareRecords {
     event DoctorAdded(address doctor);
     event RecordAdded(address patient, string disease);
     event RecordUpdated(address patient, string disease);
+
+ constructor() {
+        admin = msg.sender;
+        doctors[msg.sender] = true; // deployer is a default doctor
+    }
