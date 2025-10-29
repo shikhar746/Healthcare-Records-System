@@ -34,3 +34,9 @@ contract HealthcareRecords {
         admin = msg.sender;
         doctors[msg.sender] = true; // deployer is a default doctor
     }
+
+ // Modifier for only admin access
+    modifier onlyAdmin() {
+        require(msg.sender == admin, "Only admin allowed");
+        _;
+    }
