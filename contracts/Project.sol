@@ -40,3 +40,11 @@ contract HealthcareRecords {
         require(msg.sender == admin, "Only admin allowed");
         _;
     }
+
+// Modifier for only doctors
+    modifier onlyDoctor() {
+        require(doctors[msg.sender], "Only doctor can perform this action");
+        _;
+    }
+
+
