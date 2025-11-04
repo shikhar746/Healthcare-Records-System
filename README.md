@@ -75,3 +75,6 @@ Blockchain-backed immutable audit trail.
 Enhanced interoperability with external hospital systems.
 
 Advanced analytics and reporting dashboards.
+![WhatsApp Image 2025-11-04 at 18 21 27_83e77211](https://github.com/user-attachments/assets/44af2289-4f7a-4779-91eb-7ffce2ce67ce)
+
+
